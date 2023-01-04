@@ -5,6 +5,7 @@ app.get("/", (request, response) => {
   response.send("hello world!");
   //   console.log(request);
   console.log(request);
+  console.log("raji");
 });
 
 app.get("/date", (request, response) => {
